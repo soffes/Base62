@@ -16,6 +16,8 @@ decode(string: "funky") // 619367412
 
 If you prefer, you can use `Base62.encode` instead of just `encode`.
 
+It’s worth noting that you can’t decode an string with a value greater than `Int.max`.
+
 
 ## Thanks
 
