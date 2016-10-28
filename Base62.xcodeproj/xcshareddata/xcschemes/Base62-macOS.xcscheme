@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "215DB50D1DC37D9F00034124"
+               BlueprintIdentifier = "215DB5631DC37F0800034124"
                BuildableName = "Base62.framework"
-               BlueprintName = "Base62-iOS"
+               BlueprintName = "Base62-macOS"
                ReferencedContainer = "container:Base62.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "215DB5161DC37D9F00034124"
+               BlueprintIdentifier = "215DB56B1DC37F0800034124"
                BuildableName = "Base62Tests.xctest"
-               BlueprintName = "Base62Tests-iOS"
+               BlueprintName = "Base62Tests-macOS"
                ReferencedContainer = "container:Base62.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "215DB50D1DC37D9F00034124"
+            BlueprintIdentifier = "215DB5631DC37F0800034124"
             BuildableName = "Base62.framework"
-            BlueprintName = "Base62-iOS"
+            BlueprintName = "Base62-macOS"
             ReferencedContainer = "container:Base62.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,9 +64,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "215DB50D1DC37D9F00034124"
+            BlueprintIdentifier = "215DB5631DC37F0800034124"
             BuildableName = "Base62.framework"
-            BlueprintName = "Base62-iOS"
+            BlueprintName = "Base62-macOS"
             ReferencedContainer = "container:Base62.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,9 +82,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "215DB50D1DC37D9F00034124"
+            BlueprintIdentifier = "215DB5631DC37F0800034124"
             BuildableName = "Base62.framework"
-            BlueprintName = "Base62-iOS"
+            BlueprintName = "Base62-macOS"
             ReferencedContainer = "container:Base62.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

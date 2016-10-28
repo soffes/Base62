@@ -11,6 +11,16 @@
 		215DB52A1DC37DCA00034124 /* Base62.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215DB5291DC37DCA00034124 /* Base62.swift */; };
 		215DB52F1DC37DCD00034124 /* Base62.h in Headers */ = {isa = PBXBuildFile; fileRef = 215DB52C1DC37DCD00034124 /* Base62.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		215DB5351DC37DE300034124 /* Base62Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215DB5331DC37DD100034124 /* Base62Tests.swift */; };
+		215DB5511DC37EF500034124 /* Base62.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 215DB5481DC37EF500034124 /* Base62.framework */; };
+		215DB56D1DC37F0900034124 /* Base62.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 215DB5641DC37F0800034124 /* Base62.framework */; };
+		215DB57B1DC37F1A00034124 /* Base62Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215DB5331DC37DD100034124 /* Base62Tests.swift */; };
+		215DB57C1DC37F1B00034124 /* Base62Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215DB5331DC37DD100034124 /* Base62Tests.swift */; };
+		215DB57D1DC37F1E00034124 /* Base62.h in Headers */ = {isa = PBXBuildFile; fileRef = 215DB52C1DC37DCD00034124 /* Base62.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		215DB57E1DC37F1F00034124 /* Base62.h in Headers */ = {isa = PBXBuildFile; fileRef = 215DB52C1DC37DCD00034124 /* Base62.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		215DB57F1DC37F1F00034124 /* Base62.h in Headers */ = {isa = PBXBuildFile; fileRef = 215DB52C1DC37DCD00034124 /* Base62.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		215DB5801DC37F2600034124 /* Base62.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215DB5291DC37DCA00034124 /* Base62.swift */; };
+		215DB5811DC37F2600034124 /* Base62.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215DB5291DC37DCA00034124 /* Base62.swift */; };
+		215DB5821DC37F2600034124 /* Base62.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215DB5291DC37DCA00034124 /* Base62.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -19,6 +29,20 @@
 			containerPortal = 215DB5051DC37D9F00034124 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 215DB50D1DC37D9F00034124;
+			remoteInfo = Base62;
+		};
+		215DB5521DC37EF500034124 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 215DB5051DC37D9F00034124 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 215DB5471DC37EF500034124;
+			remoteInfo = Base62;
+		};
+		215DB56E1DC37F0900034124 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 215DB5051DC37D9F00034124 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 215DB5631DC37F0800034124;
 			remoteInfo = Base62;
 		};
 /* End PBXContainerItemProxy section */
@@ -31,6 +55,11 @@
 		215DB52D1DC37DCD00034124 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		215DB52E1DC37DCD00034124 /* Tests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		215DB5331DC37DD100034124 /* Base62Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base62Tests.swift; sourceTree = "<group>"; };
+		215DB53B1DC37EE600034124 /* Base62.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Base62.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		215DB5481DC37EF500034124 /* Base62.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Base62.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		215DB5501DC37EF500034124 /* Base62Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Base62Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		215DB5641DC37F0800034124 /* Base62.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Base62.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		215DB56C1DC37F0800034124 /* Base62Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Base62Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +75,43 @@
 			buildActionMask = 2147483647;
 			files = (
 				215DB5181DC37D9F00034124 /* Base62.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215DB5371DC37EE600034124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215DB5441DC37EF500034124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215DB54D1DC37EF500034124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215DB5511DC37EF500034124 /* Base62.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215DB5601DC37F0800034124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215DB5691DC37F0800034124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215DB56D1DC37F0900034124 /* Base62.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +133,11 @@
 			children = (
 				215DB50E1DC37D9F00034124 /* Base62.framework */,
 				215DB5171DC37D9F00034124 /* Base62Tests.xctest */,
+				215DB53B1DC37EE600034124 /* Base62.framework */,
+				215DB5481DC37EF500034124 /* Base62.framework */,
+				215DB5501DC37EF500034124 /* Base62Tests.xctest */,
+				215DB5641DC37F0800034124 /* Base62.framework */,
+				215DB56C1DC37F0800034124 /* Base62Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,6 +181,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		215DB5381DC37EE600034124 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215DB57F1DC37F1F00034124 /* Base62.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215DB5451DC37EF500034124 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215DB57E1DC37F1F00034124 /* Base62.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215DB5611DC37F0800034124 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215DB57D1DC37F1E00034124 /* Base62.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -149,6 +244,96 @@
 			productReference = 215DB5171DC37D9F00034124 /* Base62Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		215DB53A1DC37EE600034124 /* Base62-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 215DB5401DC37EE600034124 /* Build configuration list for PBXNativeTarget "Base62-watchOS" */;
+			buildPhases = (
+				215DB5361DC37EE600034124 /* Sources */,
+				215DB5371DC37EE600034124 /* Frameworks */,
+				215DB5381DC37EE600034124 /* Headers */,
+				215DB5391DC37EE600034124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Base62-watchOS";
+			productName = Base62;
+			productReference = 215DB53B1DC37EE600034124 /* Base62.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		215DB5471DC37EF500034124 /* Base62-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 215DB5591DC37EF500034124 /* Build configuration list for PBXNativeTarget "Base62-tvOS" */;
+			buildPhases = (
+				215DB5431DC37EF500034124 /* Sources */,
+				215DB5441DC37EF500034124 /* Frameworks */,
+				215DB5451DC37EF500034124 /* Headers */,
+				215DB5461DC37EF500034124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Base62-tvOS";
+			productName = Base62;
+			productReference = 215DB5481DC37EF500034124 /* Base62.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		215DB54F1DC37EF500034124 /* Base62Tests-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 215DB55C1DC37EF500034124 /* Build configuration list for PBXNativeTarget "Base62Tests-tvOS" */;
+			buildPhases = (
+				215DB54C1DC37EF500034124 /* Sources */,
+				215DB54D1DC37EF500034124 /* Frameworks */,
+				215DB54E1DC37EF500034124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				215DB5531DC37EF500034124 /* PBXTargetDependency */,
+			);
+			name = "Base62Tests-tvOS";
+			productName = Base62Tests;
+			productReference = 215DB5501DC37EF500034124 /* Base62Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		215DB5631DC37F0800034124 /* Base62-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 215DB5751DC37F0900034124 /* Build configuration list for PBXNativeTarget "Base62-macOS" */;
+			buildPhases = (
+				215DB55F1DC37F0800034124 /* Sources */,
+				215DB5601DC37F0800034124 /* Frameworks */,
+				215DB5611DC37F0800034124 /* Headers */,
+				215DB5621DC37F0800034124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Base62-macOS";
+			productName = Base62;
+			productReference = 215DB5641DC37F0800034124 /* Base62.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		215DB56B1DC37F0800034124 /* Base62Tests-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 215DB5781DC37F0900034124 /* Build configuration list for PBXNativeTarget "Base62Tests-macOS" */;
+			buildPhases = (
+				215DB5681DC37F0800034124 /* Sources */,
+				215DB5691DC37F0800034124 /* Frameworks */,
+				215DB56A1DC37F0800034124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				215DB56F1DC37F0900034124 /* PBXTargetDependency */,
+			);
+			name = "Base62Tests-macOS";
+			productName = Base62Tests;
+			productReference = 215DB56C1DC37F0800034124 /* Base62Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -164,6 +349,26 @@
 						ProvisioningStyle = Automatic;
 					};
 					215DB5161DC37D9F00034124 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					215DB53A1DC37EE600034124 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					215DB5471DC37EF500034124 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					215DB54F1DC37EF500034124 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					215DB5631DC37F0800034124 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					215DB56B1DC37F0800034124 = {
 						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -183,6 +388,11 @@
 			targets = (
 				215DB50D1DC37D9F00034124 /* Base62-iOS */,
 				215DB5161DC37D9F00034124 /* Base62Tests-iOS */,
+				215DB53A1DC37EE600034124 /* Base62-watchOS */,
+				215DB5471DC37EF500034124 /* Base62-tvOS */,
+				215DB54F1DC37EF500034124 /* Base62Tests-tvOS */,
+				215DB5631DC37F0800034124 /* Base62-macOS */,
+				215DB56B1DC37F0800034124 /* Base62Tests-macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -196,6 +406,41 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		215DB5151DC37D9F00034124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215DB5391DC37EE600034124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215DB5461DC37EF500034124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215DB54E1DC37EF500034124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215DB5621DC37F0800034124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215DB56A1DC37F0800034124 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -221,6 +466,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		215DB5361DC37EE600034124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215DB5821DC37F2600034124 /* Base62.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215DB5431DC37EF500034124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215DB5811DC37F2600034124 /* Base62.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215DB54C1DC37EF500034124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215DB57C1DC37F1B00034124 /* Base62Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215DB55F1DC37F0800034124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215DB5801DC37F2600034124 /* Base62.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215DB5681DC37F0800034124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215DB57B1DC37F1A00034124 /* Base62Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -229,6 +514,16 @@
 			target = 215DB50D1DC37D9F00034124 /* Base62-iOS */;
 			targetProxy = 215DB5191DC37D9F00034124 /* PBXContainerItemProxy */;
 		};
+		215DB5531DC37EF500034124 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 215DB5471DC37EF500034124 /* Base62-tvOS */;
+			targetProxy = 215DB5521DC37EF500034124 /* PBXContainerItemProxy */;
+		};
+		215DB56F1DC37F0900034124 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 215DB5631DC37F0800034124 /* Base62-macOS */;
+			targetProxy = 215DB56E1DC37F0900034124 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
@@ -236,6 +531,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -293,6 +589,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -377,6 +674,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				INFOPLIST_FILE = "Support/Tests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.base62.tests;
@@ -388,10 +686,195 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				INFOPLIST_FILE = "Support/Tests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.base62.tests;
 				PRODUCT_NAME = Base62Tests;
+			};
+			name = Release;
+		};
+		215DB5411DC37EE600034124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Support/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.base62;
+				PRODUCT_NAME = Base62;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		215DB5421DC37EE600034124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Support/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.base62;
+				PRODUCT_NAME = Base62;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		215DB55A1DC37EF500034124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Support/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.base62;
+				PRODUCT_NAME = Base62;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		215DB55B1DC37EF500034124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Support/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.base62;
+				PRODUCT_NAME = Base62;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		215DB55D1DC37EF500034124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				INFOPLIST_FILE = "Support/Tests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.base62.tests;
+				PRODUCT_NAME = Base62Tests;
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		215DB55E1DC37EF500034124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				INFOPLIST_FILE = "Support/Tests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.base62.tests;
+				PRODUCT_NAME = Base62Tests;
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		215DB5761DC37F0900034124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Support/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.base62;
+				PRODUCT_NAME = Base62;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		215DB5771DC37F0900034124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Support/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.base62;
+				PRODUCT_NAME = Base62;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		215DB5791DC37F0900034124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Support/Tests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.base62.tests;
+				PRODUCT_NAME = Base62Tests;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		215DB57A1DC37F0900034124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Support/Tests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.base62.tests;
+				PRODUCT_NAME = Base62Tests;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -424,6 +907,46 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		215DB5401DC37EE600034124 /* Build configuration list for PBXNativeTarget "Base62-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215DB5411DC37EE600034124 /* Debug */,
+				215DB5421DC37EE600034124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		215DB5591DC37EF500034124 /* Build configuration list for PBXNativeTarget "Base62-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215DB55A1DC37EF500034124 /* Debug */,
+				215DB55B1DC37EF500034124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		215DB55C1DC37EF500034124 /* Build configuration list for PBXNativeTarget "Base62Tests-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215DB55D1DC37EF500034124 /* Debug */,
+				215DB55E1DC37EF500034124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		215DB5751DC37F0900034124 /* Build configuration list for PBXNativeTarget "Base62-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215DB5761DC37F0900034124 /* Debug */,
+				215DB5771DC37F0900034124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		215DB5781DC37F0900034124 /* Build configuration list for PBXNativeTarget "Base62Tests-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215DB5791DC37F0900034124 /* Debug */,
+				215DB57A1DC37F0900034124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
