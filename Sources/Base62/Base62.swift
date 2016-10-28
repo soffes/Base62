@@ -19,11 +19,11 @@ let base62Alphabet = [
 
 // MARK: - Encoding
 
-public func encode(integer integer: UInt64) -> String {
+public func encode(integer: UInt64) -> String {
 	return encode(integer: integer, alphabet: base62Alphabet)
 }
 
-func encode(integer integer: UInt64, alphabet: [String]) -> String {
+func encode(integer: UInt64, alphabet: [String]) -> String {
 	let base = UInt64(alphabet.count)
 
 	if integer < base {
@@ -35,16 +35,16 @@ func encode(integer integer: UInt64, alphabet: [String]) -> String {
 
 // MARK: - Decoding
 
-public func decode(string string: String) -> UInt64 {
+public func decode(string: String) -> UInt64 {
 	return decode(string: string, alphabet: base62Alphabet)
 }
 
-func decode(string string: String, alphabet: [String]) -> UInt64 {
+func decode(string: String, alphabet: [String]) -> UInt64 {
 	let base = Double(alphabet.count)
 	var output: UInt64 = 0
 
-	for (i, character) in string.characters.reverse().enumerate() {
-		guard let index = alphabet.indexOf(String(character)) else { continue }
+	for (i, character) in string.characters.reversed().enumerated() {
+		guard let index = alphabet.index(of: String(character)) else { continue }
 		let place = UInt64(pow(base, Double(i)))
 		output += UInt64(index) * place
 	}
