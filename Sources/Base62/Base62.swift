@@ -1,11 +1,3 @@
-//
-//  Base62.swift
-//  Base62
-//
-//  Created by Sam Soffes on 5/20/16.
-//  Copyright © 2016 Sam Soffes. All rights reserved.
-//
-
 import Darwin
 
 let base62Alphabet = [
@@ -43,8 +35,8 @@ func decode(string: String, alphabet: [String]) -> UInt64 {
 	let base = Double(alphabet.count)
 	var output: UInt64 = 0
 
-	for (i, character) in string.characters.reversed().enumerated() {
-		guard let index = alphabet.index(of: String(character)) else { continue }
+	for (i, character) in string.reversed().enumerated() {
+        guard let index = alphabet.firstIndex(of: String(character)) else { continue }
 		let place = UInt64(pow(base, Double(i)))
 		output += UInt64(index) * place
 	}
